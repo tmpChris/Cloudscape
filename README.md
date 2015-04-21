@@ -6,5 +6,6 @@ Sanatized of content references. Requires some re-addition of content before imp
 
 ---
 
-Content Dependency Log:				Imperitive?
+Content Dependency Log |			Imperitive?
+-
 body{background-image:url();}		No.
