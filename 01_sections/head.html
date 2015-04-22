@@ -16,7 +16,7 @@
 				src: local('Open Sans'), local('OpenSans'), url('http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
 			}
 			body {
-				/* background-image: url('');*/
+				background-image: url('http://mycdnlocation/mybackgroundimage.png');
 				background-color: #f9f9f9;
 			}
 			p,
@@ -28,6 +28,9 @@
 				color: #14b1e7;
 				text-decoration: none;
 			}
+			/*  !important declerations to override inline styles. 
+				Provides broader compatability in clients that strip 
+				the <head> before rendering the email. */
 			a:hover {
 				color: #8ebf3f !important;
 			}
@@ -39,6 +42,8 @@
 				width: 650px;
 			}
 			@media all and (min-width: 1px) and (max-width: 649px) {
+				/*  Targeting cloudcsape the better rendering engines 
+					like apple, dropbox and mozilla */
 				.center {
 					max-width: 650px;
 					width: 100% !important;
@@ -148,6 +153,7 @@
 				padding-bottom: 5px;
 				border-top: 1px solid #14b1e7;
 				border-bottom: 1px solid #14b1e7;
+				/* cloudscape */
 				margin-top: 20px;
 				margin-bottom: 30px;
 			}

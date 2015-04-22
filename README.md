@@ -1,22 +1,26 @@
 # Cloudscape
 ============
 
-Cloudscape template code sections for the Bronto and Google Analytics compatablie responsive email template.
+Cloudscape template code sections for the Bronto and Google Analytics compatible responsive email template.
 
-Sanatized of content references. Requires some re-addition of content before implimentation.
+To use, take these pieces and assemble them like magical marketing legos. 
 
 ---
 
 ###Instructions###
 
-Copy paste these files together with 01_sections/ snippets at the top of the html file and your custom combination of included 02_pieces/ snippets below.
+Start with a blank html document.
 
-Copy the fnr.html file (one big comment) into your html file and use your favorite text editor to find and replace ALL occurences of these values that you want to change. 
+Add the contents of 01_sections/ snippets at the top of the html file, and your custom combination of included 02_pieces/ snippets below.
 
-Manually update things like individual file locations for external resources, your custom utm tracking code, and other things. 
+Optionally use Adobe Illustrator Template files in 03_assets/ to generate content like Nav and Icon buttons. 
 
-More detailed instructions to follow. 
+Copy the fnr.html file (one big comment) into your html file and use your favorite text editor to find and replace ALL occurences of the indicated values that you want to change. 
 
-###Rendering Engine Compatability###
+Manually update things like links, individual file locations for external resources, your custom utm tracking code, and other things. 
 
-**Cloudscape** is a robust, widely cross-compatable MIME format email template for 2015, design for use with the Bronto email platform. It displays well on a wide variety of Mobile Platforms, in web-based Gmail, Yahoo, Outlook, AOL, and Word-engine based Outlook Desktop. 
+You're ready to use it. 
+
+###Rendering Engine Compatibility###
+
+**Cloudscape** is a robust, widely cross-compatible MIME format email template for 2015, design for use with the Bronto email platform. It displays well on a wide variety of Mobile Platforms, in web-based Gmail, Yahoo, Outlook, AOL, and Word-engine based Outlook Desktop. 
